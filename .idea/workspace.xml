@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="99c62d3c-53dd-4a1d-8846-355c58f43e9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/flink/core/memory/HeapMemorySegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/flink/core/memory/HybridMemorySegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/apache/flink/core/memory/MemorySegment.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+    <fileColor scope="Non-Project Files (Material Oceanic)" color="2E3C43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/flink/core/memory/MemoryType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/flink/core/memory/MemoryUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#218#229#0" expanded="true" />
+                <element signature="e#412#475#1" expanded="true" />
+                <element signature="e#1015#1046#0" expanded="true" />
+                <element signature="e#1015#1046#0" expanded="true" />
+                <element signature="e#528#558#0" expanded="true" />
+                <element signature="e#1099#1201#0" expanded="true" />
+                <element signature="e#1099#1201#0" expanded="true" />
+                <element signature="e#1202#1333#0" expanded="true" />
+                <element signature="e#1202#1333#0" expanded="true" />
+                <element signature="e#1334#1413#0" expanded="true" />
+                <element signature="e#1334#1413#0" expanded="true" />
+                <element signature="e#1414#1494#0" expanded="true" />
+                <element signature="e#1414#1494#0" expanded="true" />
+                <element signature="e#1495#1562#0" expanded="true" />
+                <element signature="e#1495#1562#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/flink/core/memory/MemorySegment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="805">
+              <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#834#909#0" expanded="true" />
+                <element signature="e#834#909#0" expanded="true" />
+                <element signature="e#834#909#0" expanded="true" />
+                <element signature="e#834#909#0" expanded="true" />
+                <element signature="e#834#909#0" expanded="true" />
+                <element signature="e#834#909#0" expanded="true" />
+                <element signature="e#1160#1261#0" expanded="true" />
+                <element signature="e#1160#1261#0" expanded="true" />
+                <element signature="e#1160#1261#0" expanded="true" />
+                <element signature="e#1160#1261#0" expanded="true" />
+                <element signature="e#1160#1261#0" expanded="true" />
+                <element signature="e#1160#1261#0" expanded="true" />
+                <element signature="e#1266#1565#0" expanded="true" />
+                <element signature="e#1266#1565#0" expanded="true" />
+                <element signature="e#1266#1565#0" expanded="true" />
+                <element signature="e#1266#1565#0" expanded="true" />
+                <element signature="e#1378#1557#0" expanded="true" />
+                <element signature="e#1378#1557#0" expanded="true" />
+                <element signature="e#1378#1557#0" expanded="true" />
+                <element signature="e#1378#1557#0" expanded="true" />
+                <element signature="e#1745#1746#0" expanded="true" />
+                <element signature="e#1766#1767#0" expanded="true" />
+                <element signature="e#1796#1797#0" expanded="true" />
+                <element signature="e#1835#1836#0" expanded="true" />
+                <element signature="e#1859#1860#0" expanded="true" />
+                <element signature="e#1895#1896#0" expanded="true" />
+                <element signature="e#1927#1928#0" expanded="true" />
+                <element signature="e#1962#1963#0" expanded="true" />
+                <element signature="e#1998#2155#0" expanded="true" />
+                <element signature="e#1998#2155#0" expanded="true" />
+                <element signature="e#2194#2352#0" expanded="true" />
+                <element signature="e#2194#2352#0" expanded="true" />
+                <element signature="e#2445#2446#0" expanded="true" />
+                <element signature="e#2467#2468#0" expanded="true" />
+                <element signature="e#2971#2998#1" expanded="true" />
+                <element signature="e#3003#3269#0" expanded="true" />
+                <element signature="e#3003#3269#0" expanded="true" />
+                <element signature="e#3105#3269#0" expanded="true" />
+                <element signature="e#3105#3269#0" expanded="true" />
+                <element signature="e#3332#3453#0" expanded="true" />
+                <element signature="e#3332#3453#0" expanded="true" />
+                <element signature="e#3513#3634#0" expanded="true" />
+                <element signature="e#3513#3634#0" expanded="true" />
+                <element signature="e#3691#3718#1" expanded="true" />
+                <element signature="e#3723#3983#0" expanded="true" />
+                <element signature="e#3723#3983#0" expanded="true" />
+                <element signature="e#3825#3983#0" expanded="true" />
+                <element signature="e#3825#3983#0" expanded="true" />
+                <element signature="e#4058#4179#0" expanded="true" />
+                <element signature="e#4058#4179#0" expanded="true" />
+                <element signature="e#4251#4372#0" expanded="true" />
+                <element signature="e#4251#4372#0" expanded="true" />
+                <element signature="e#4425#4452#1" expanded="true" />
+                <element signature="e#4457#4752#0" expanded="true" />
+                <element signature="e#4457#4752#0" expanded="true" />
+                <element signature="e#4560#4752#0" expanded="true" />
+                <element signature="e#4560#4752#0" expanded="true" />
+                <element signature="e#4817#4936#0" expanded="true" />
+                <element signature="e#4817#4936#0" expanded="true" />
+                <element signature="e#4998#5117#0" expanded="true" />
+                <element signature="e#4998#5117#0" expanded="true" />
+                <element signature="e#5182#5215#1" expanded="true" />
+                <element signature="e#5220#5515#0" expanded="true" />
+                <element signature="e#5220#5515#0" expanded="true" />
+                <element signature="e#5323#5515#0" expanded="true" />
+                <element signature="e#5323#5515#0" expanded="true" />
+                <element signature="e#5592#5711#0" expanded="true" />
+                <element signature="e#5592#5711#0" expanded="true" />
+                <element signature="e#5785#5904#0" expanded="true" />
+                <element signature="e#5785#5904#0" expanded="true" />
+                <element signature="e#6692#6725#1" expanded="true" />
+                <element signature="e#6730#7023#0" expanded="true" />
+                <element signature="e#6730#7023#0" expanded="true" />
+                <element signature="e#6831#7023#0" expanded="true" />
+                <element signature="e#6831#7023#0" expanded="true" />
+                <element signature="e#7827#7944#0" expanded="true" />
+                <element signature="e#7827#7944#0" expanded="true" />
+                <element signature="e#8742#8859#0" expanded="true" />
+                <element signature="e#8742#8859#0" expanded="true" />
+                <element signature="e#9667#9700#1" expanded="true" />
+                <element signature="e#9705#9998#0" expanded="true" />
+                <element signature="e#9705#9998#0" expanded="true" />
+                <element signature="e#9806#9998#0" expanded="true" />
+                <element signature="e#9806#9998#0" expanded="true" />
+                <element signature="e#10832#10949#0" expanded="true" />
+                <element signature="e#10832#10949#0" expanded="true" />
+                <element signature="e#11777#11894#0" expanded="true" />
+                <element signature="e#11777#11894#0" expanded="true" />
+                <element signature="e#12690#12723#1" expanded="true" />
+                <element signature="e#12728#13022#0" expanded="true" />
+                <element signature="e#12728#13022#0" expanded="true" />
+                <element signature="e#12830#13022#0" expanded="true" />
+                <element signature="e#12830#13022#0" expanded="true" />
+                <element signature="e#13844#13960#0" expanded="true" />
+                <element signature="e#13844#13960#0" expanded="true" />
+                <element signature="e#14771#14887#0" expanded="true" />
+                <element signature="e#14771#14887#0" expanded="true" />
+                <element signature="e#15704#15737#1" expanded="true" />
+                <element signature="e#15742#16036#0" expanded="true" />
+                <element signature="e#15742#16036#0" expanded="true" />
+                <element signature="e#15844#16036#0" expanded="true" />
+                <element signature="e#15844#16036#0" expanded="true" />
+                <element signature="e#16878#16994#0" expanded="true" />
+                <element signature="e#16878#16994#0" expanded="true" />
+                <element signature="e#17830#17946#0" expanded="true" />
+                <element signature="e#17830#17946#0" expanded="true" />
+                <element signature="e#18764#18765#0" expanded="true" />
+                <element signature="e#18816#18817#0" expanded="true" />
+                <element signature="e#24142#24143#0" expanded="true" />
+                <element signature="e#24198#24199#0" expanded="true" />
+                <element signature="e#29201#29238#1" expanded="true" />
+                <element signature="e#29243#29283#1" expanded="true" />
+                <element signature="e#29288#29329#1" expanded="true" />
+                <element signature="e#29334#29384#1" expanded="true" />
+                <element signature="e#29390#30154#0" expanded="true" />
+                <element signature="e#29390#30154#0" expanded="true" />
+                <element signature="e#29650#30154#0" expanded="true" />
+                <element signature="e#29650#30154#0" expanded="true" />
+                <element signature="e#29779#30154#0" expanded="true" />
+                <element signature="e#29779#30154#0" expanded="true" />
+                <element signature="e#30248#30528#0" expanded="true" />
+                <element signature="e#30248#30528#0" expanded="true" />
+                <element signature="e#30273#30314#1" expanded="true" />
+                <element signature="e#30321#30362#1" expanded="true" />
+                <element signature="e#30370#30466#0" expanded="true" />
+                <element signature="e#30370#30466#0" expanded="true" />
+                <element signature="e#30533#30774#0" expanded="true" />
+                <element signature="e#30533#30774#0" expanded="true" />
+                <element signature="e#30571#30605#1" expanded="true" />
+                <element signature="e#30612#30646#1" expanded="true" />
+                <element signature="e#30653#30671#1" expanded="true" />
+                <element signature="e#30678#30721#0" expanded="true" />
+                <element signature="e#30678#30721#0" expanded="true" />
+                <element signature="e#30911#32005#0" expanded="true" />
+                <element signature="e#30911#32005#0" expanded="true" />
+                <element signature="e#30983#31021#1" expanded="true" />
+                <element signature="e#31028#31067#1" expanded="true" />
+                <element signature="e#31075#31722#0" expanded="true" />
+                <element signature="e#31075#31722#0" expanded="true" />
+                <element signature="e#31461#31722#0" expanded="true" />
+                <element signature="e#31461#31722#0" expanded="true" />
+                <element signature="e#31594#31722#0" expanded="true" />
+                <element signature="e#31594#31722#0" expanded="true" />
+                <element signature="e#31594#31722#0" expanded="true" />
+                <element signature="e#31594#31722#0" expanded="true" />
+                <element signature="e#31594#31722#0" expanded="true" />
+                <element signature="e#31594#31722#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/flink/core/memory/HeapMemorySegment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#716#819#0" expanded="true" />
+                <element signature="e#716#819#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
+                <element signature="e#896#897#0" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
+                <element signature="e#975#976#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
+                <element signature="e#1059#1060#0" expanded="true" />
+                <element signature="e#1115#1116#0" expanded="true" />
+                <element signature="e#1155#1156#0" expanded="true" />
+                <element signature="e#1211#1212#0" expanded="true" />
+                <element signature="e#1251#1252#0" expanded="true" />
+                <element signature="e#1599#1600#0" expanded="true" />
+                <element signature="e#1639#1640#0" expanded="true" />
+                <element signature="e#1705#1706#0" expanded="true" />
+                <element signature="e#1732#1754#0" expanded="true" />
+                <element signature="e#1732#1754#0" expanded="true" />
+                <element signature="e#1758#1759#0" expanded="true" />
+                <element signature="e#2404#2405#0" expanded="true" />
+                <element signature="e#2454#2455#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/flink/core/memory/HybridMemorySegment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="130" column="7" selection-start-line="130" selection-start-column="7" selection-end-line="130" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#915#1075#0" expanded="true" />
+                <element signature="e#915#1075#0" expanded="true" />
+                <element signature="e#1146#1654#0" expanded="true" />
+                <element signature="e#1146#1654#0" expanded="true" />
+                <element signature="e#1183#1570#0" expanded="true" />
+                <element signature="e#1183#1570#0" expanded="true" />
+                <element signature="e#1223#1269#1" expanded="true" />
+                <element signature="e#1467#1562#0" expanded="true" />
+                <element signature="e#1467#1562#0" expanded="true" />
+                <element signature="e#1625#1643#1" expanded="true" />
+                <element signature="e#1739#2035#0" expanded="true" />
+                <element signature="e#1739#2035#0" expanded="true" />
+                <element signature="e#1552#1553#0" expanded="true" />
+                <element signature="e#1574#1575#0" expanded="true" />
+                <element signature="e#2810#2914#0" expanded="true" />
+                <element signature="e#2810#2914#0" expanded="true" />
+                <element signature="e#2810#2914#0" expanded="true" />
+                <element signature="e#2810#2914#0" expanded="true" />
+                <element signature="e#2919#2956#1" expanded="true" />
+                <element signature="e#2961#2996#1" expanded="true" />
+                <element signature="e#3001#3077#0" expanded="true" />
+                <element signature="e#3001#3077#0" expanded="true" />
+                <element signature="e#3001#3077#0" expanded="true" />
+                <element signature="e#3001#3077#0" expanded="true" />
+                <element signature="e#3082#3198#0" expanded="true" />
+                <element signature="e#3047#3064#0" expanded="true" />
+                <element signature="e#3082#3198#0" expanded="true" />
+                <element signature="e#3113#3192#0" expanded="true" />
+                <element signature="e#3078#3097#0" expanded="true" />
+                <element signature="e#3113#3192#0" expanded="true" />
+                <element signature="e#3205#3238#1" expanded="true" />
+                <element signature="e#3265#3293#1" expanded="true" />
+                <element signature="e#3307#3491#0" expanded="true" />
+                <element signature="e#3307#3491#0" expanded="true" />
+                <element signature="e#3727#3760#0" expanded="true" />
+                <element signature="e#3727#3760#0" expanded="true" />
+                <element signature="e#3767#3877#0" expanded="true" />
+                <element signature="e#3767#3877#0" expanded="true" />
+                <element signature="e#3943#4026#0" expanded="true" />
+                <element signature="e#3943#4026#0" expanded="true" />
+                <element signature="e#3943#4026#0" expanded="true" />
+                <element signature="e#3943#4026#0" expanded="true" />
+                <element signature="e#3943#4026#0" expanded="true" />
+                <element signature="e#3943#4026#0" expanded="true" />
+                <element signature="e#1011#1043#0" expanded="true" />
+                <element signature="e#4090#4213#0" expanded="true" />
+                <element signature="e#4090#4213#0" expanded="true" />
+                <element signature="e#4291#4374#0" expanded="true" />
+                <element signature="e#4291#4374#0" expanded="true" />
+                <element signature="e#4291#4374#0" expanded="true" />
+                <element signature="e#4291#4374#0" expanded="true" />
+                <element signature="e#4291#4374#0" expanded="true" />
+                <element signature="e#4291#4374#0" expanded="true" />
+                <element signature="e#4379#4499#0" expanded="true" />
+                <element signature="e#666#683#0" expanded="true" />
+                <element signature="e#4379#4499#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/src.zip!/java/nio/Buffer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="174" column="22" selection-start-line="174" selection-start-column="22" selection-end-line="174" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/src.zip!/java/lang/Float.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="788" column="29" selection-start-line="788" selection-start-column="29" selection-end-line="788" selection-end-column="29" />
+              <folding>
+                <element signature="e#30764#30765#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/flink/core/memory/MemorySegmentTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding>
+                <element signature="e#177#204#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/src.zip!/java/nio/Bits.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="805">
+              <caret line="588" column="13" selection-start-line="578" selection-start-column="8" selection-end-line="588" selection-end-column="13" />
+              <folding>
+                <element signature="e#16239#16240#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/src.zip!/sun/misc/Unsafe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="212" column="26" selection-start-line="212" selection-start-column="26" selection-end-line="212" selection-end-column="26" />
+              <folding>
+                <element signature="e#3233#3260#0" expanded="true" />
+                <element signature="e#3270#3375#0" expanded="true" />
+                <element signature="e#3299#3322#0" expanded="true" />
+                <element signature="e#3270#3375#0" expanded="true" />
+                <element signature="e#3374#3375#0" expanded="true" />
+                <element signature="e#9128#9129#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/main/java" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/flink/core/memory/MemoryType.java" />
+        <option value="$PROJECT_DIR$/src/test/java/lan/UnsafeTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/flink/core/memory/MemoryUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/apache/flink/core/memory/MemorySegmentTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/flink/core/memory/MemorySegment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/flink/core/memory/HeapMemorySegment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/flink/core/memory/HybridMemorySegment.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="1253" />
+    <option name="y" value="24" />
+    <option name="width" value="1327" />
+    <option name="height" value="1416" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="flink-copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-copy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="memory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flink-copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flink-copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lan" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MemorySegmentTest.test1">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemorySegmentTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flink-copy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.flink.core.memory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.apache.flink.core.memory" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.flink.core.memory.MemorySegmentTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnsafeTest.testUnsage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flink-copy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lan" />
+      <option name="MAIN_CLASS_NAME" value="lan.UnsafeTest" />
+      <option name="METHOD_NAME" value="testUnsage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MemorySegmentTest.test1" />
+        <item itemvalue="JUnit.UnsafeTest.testUnsage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../prog-scala-2nd-ed-code-examples-master" value="1474725805000" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Downloads/Lagonaki" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/Scorex" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/Waves" value="PREVIEW" />
+        <entry key="/tmp/hello" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99c62d3c-53dd-4a1d-8846-355c58f43e9a" name="Default Changelist" comment="" />
+      <created>1548127633621</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548127633621</updated>
+      <workItem from="1548127640270" duration="11490000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UnsafeTest_testUnsage - 2019.01.22 at 11h 36m 52s.xml">
+      <configuration name="UnsafeTest.testUnsage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnsafeTest_testUnsage - 2019.01.22 at 11h 38m 23s.xml">
+      <configuration name="UnsafeTest.testUnsage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnsafeTest_testUnsage - 2019.01.22 at 11h 39m 44s.xml">
+      <configuration name="UnsafeTest.testUnsage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemorySegmentTest_test1 - 2019.01.22 at 12h 46m 01s.xml">
+      <configuration name="MemorySegmentTest.test1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11490000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1253" y="24" width="1327" height="1416" extended-state="4" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980423" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3292978" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Problems" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" weight="0.3292978" />
+      <window_info anchor="bottom" id="Tail" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3292978" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39951575" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="PlantUML" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Key Promoter X" />
+      <window_info anchor="right" id="ASM" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/lan/UnsafeTest.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>BYTE_ARRAY_BASE_OFFSET</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>caller.getClassLoader()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/lan/UnsafeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#175#210#1" expanded="true" />
+            <element signature="e#191#209#0" expanded="true" />
+            <element signature="e#215#252#1" expanded="true" />
+            <element signature="e#281#289#0" expanded="true" />
+            <element signature="e#296#330#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/src.zip!/sun/reflect/Reflection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+          <folding>
+            <element signature="e#2469#2470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/src.zip!/sun/misc/VM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="240" column="26" selection-start-line="240" selection-start-column="26" selection-end-line="240" selection-end-column="26" />
+          <folding>
+            <element signature="e#8441#8442#0" expanded="true" />
+            <element signature="e#8478#8479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="2064" column="17" selection-start-line="2064" selection-start-column="17" selection-end-line="2064" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/src.zip!/java/nio/ByteOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+          <folding>
+            <element signature="e#2524#2525#0" expanded="true" />
+            <element signature="e#2563#2564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/src.zip!/java/nio/Bits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="588" column="13" selection-start-line="578" selection-start-column="8" selection-end-line="588" selection-end-column="13" />
+          <folding>
+            <element signature="e#16239#16240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/flink/core/memory/MemoryType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/flink/core/memory/MemorySegmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#177#204#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/src.zip!/java/lang/Float.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="788" column="29" selection-start-line="788" selection-start-column="29" selection-end-line="788" selection-end-column="29" />
+          <folding>
+            <element signature="e#30764#30765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/src.zip!/sun/misc/Unsafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="212" column="26" selection-start-line="212" selection-start-column="26" selection-end-line="212" selection-end-column="26" />
+          <folding>
+            <element signature="e#3233#3260#0" expanded="true" />
+            <element signature="e#3270#3375#0" expanded="true" />
+            <element signature="e#3299#3322#0" expanded="true" />
+            <element signature="e#3270#3375#0" expanded="true" />
+            <element signature="e#3374#3375#0" expanded="true" />
+            <element signature="e#9128#9129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/flink/core/memory/MemoryUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#218#229#0" expanded="true" />
+            <element signature="e#412#475#1" expanded="true" />
+            <element signature="e#1015#1046#0" expanded="true" />
+            <element signature="e#1015#1046#0" expanded="true" />
+            <element signature="e#528#558#0" expanded="true" />
+            <element signature="e#1099#1201#0" expanded="true" />
+            <element signature="e#1099#1201#0" expanded="true" />
+            <element signature="e#1202#1333#0" expanded="true" />
+            <element signature="e#1202#1333#0" expanded="true" />
+            <element signature="e#1334#1413#0" expanded="true" />
+            <element signature="e#1334#1413#0" expanded="true" />
+            <element signature="e#1414#1494#0" expanded="true" />
+            <element signature="e#1414#1494#0" expanded="true" />
+            <element signature="e#1495#1562#0" expanded="true" />
+            <element signature="e#1495#1562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/flink/core/memory/HeapMemorySegment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#716#819#0" expanded="true" />
+            <element signature="e#716#819#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1599#1600#0" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+            <element signature="e#1705#1706#0" expanded="true" />
+            <element signature="e#1732#1754#0" expanded="true" />
+            <element signature="e#1732#1754#0" expanded="true" />
+            <element signature="e#1758#1759#0" expanded="true" />
+            <element signature="e#2404#2405#0" expanded="true" />
+            <element signature="e#2454#2455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/src.zip!/java/nio/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="174" column="22" selection-start-line="174" selection-start-column="22" selection-end-line="174" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/flink/core/memory/MemorySegment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#834#909#0" expanded="true" />
+            <element signature="e#834#909#0" expanded="true" />
+            <element signature="e#834#909#0" expanded="true" />
+            <element signature="e#834#909#0" expanded="true" />
+            <element signature="e#834#909#0" expanded="true" />
+            <element signature="e#834#909#0" expanded="true" />
+            <element signature="e#1160#1261#0" expanded="true" />
+            <element signature="e#1160#1261#0" expanded="true" />
+            <element signature="e#1160#1261#0" expanded="true" />
+            <element signature="e#1160#1261#0" expanded="true" />
+            <element signature="e#1160#1261#0" expanded="true" />
+            <element signature="e#1160#1261#0" expanded="true" />
+            <element signature="e#1266#1565#0" expanded="true" />
+            <element signature="e#1266#1565#0" expanded="true" />
+            <element signature="e#1266#1565#0" expanded="true" />
+            <element signature="e#1266#1565#0" expanded="true" />
+            <element signature="e#1378#1557#0" expanded="true" />
+            <element signature="e#1378#1557#0" expanded="true" />
+            <element signature="e#1378#1557#0" expanded="true" />
+            <element signature="e#1378#1557#0" expanded="true" />
+            <element signature="e#1745#1746#0" expanded="true" />
+            <element signature="e#1766#1767#0" expanded="true" />
+            <element signature="e#1796#1797#0" expanded="true" />
+            <element signature="e#1835#1836#0" expanded="true" />
+            <element signature="e#1859#1860#0" expanded="true" />
+            <element signature="e#1895#1896#0" expanded="true" />
+            <element signature="e#1927#1928#0" expanded="true" />
+            <element signature="e#1962#1963#0" expanded="true" />
+            <element signature="e#1998#2155#0" expanded="true" />
+            <element signature="e#1998#2155#0" expanded="true" />
+            <element signature="e#2194#2352#0" expanded="true" />
+            <element signature="e#2194#2352#0" expanded="true" />
+            <element signature="e#2445#2446#0" expanded="true" />
+            <element signature="e#2467#2468#0" expanded="true" />
+            <element signature="e#2971#2998#1" expanded="true" />
+            <element signature="e#3003#3269#0" expanded="true" />
+            <element signature="e#3003#3269#0" expanded="true" />
+            <element signature="e#3105#3269#0" expanded="true" />
+            <element signature="e#3105#3269#0" expanded="true" />
+            <element signature="e#3332#3453#0" expanded="true" />
+            <element signature="e#3332#3453#0" expanded="true" />
+            <element signature="e#3513#3634#0" expanded="true" />
+            <element signature="e#3513#3634#0" expanded="true" />
+            <element signature="e#3691#3718#1" expanded="true" />
+            <element signature="e#3723#3983#0" expanded="true" />
+            <element signature="e#3723#3983#0" expanded="true" />
+            <element signature="e#3825#3983#0" expanded="true" />
+            <element signature="e#3825#3983#0" expanded="true" />
+            <element signature="e#4058#4179#0" expanded="true" />
+            <element signature="e#4058#4179#0" expanded="true" />
+            <element signature="e#4251#4372#0" expanded="true" />
+            <element signature="e#4251#4372#0" expanded="true" />
+            <element signature="e#4425#4452#1" expanded="true" />
+            <element signature="e#4457#4752#0" expanded="true" />
+            <element signature="e#4457#4752#0" expanded="true" />
+            <element signature="e#4560#4752#0" expanded="true" />
+            <element signature="e#4560#4752#0" expanded="true" />
+            <element signature="e#4817#4936#0" expanded="true" />
+            <element signature="e#4817#4936#0" expanded="true" />
+            <element signature="e#4998#5117#0" expanded="true" />
+            <element signature="e#4998#5117#0" expanded="true" />
+            <element signature="e#5182#5215#1" expanded="true" />
+            <element signature="e#5220#5515#0" expanded="true" />
+            <element signature="e#5220#5515#0" expanded="true" />
+            <element signature="e#5323#5515#0" expanded="true" />
+            <element signature="e#5323#5515#0" expanded="true" />
+            <element signature="e#5592#5711#0" expanded="true" />
+            <element signature="e#5592#5711#0" expanded="true" />
+            <element signature="e#5785#5904#0" expanded="true" />
+            <element signature="e#5785#5904#0" expanded="true" />
+            <element signature="e#6692#6725#1" expanded="true" />
+            <element signature="e#6730#7023#0" expanded="true" />
+            <element signature="e#6730#7023#0" expanded="true" />
+            <element signature="e#6831#7023#0" expanded="true" />
+            <element signature="e#6831#7023#0" expanded="true" />
+            <element signature="e#7827#7944#0" expanded="true" />
+            <element signature="e#7827#7944#0" expanded="true" />
+            <element signature="e#8742#8859#0" expanded="true" />
+            <element signature="e#8742#8859#0" expanded="true" />
+            <element signature="e#9667#9700#1" expanded="true" />
+            <element signature="e#9705#9998#0" expanded="true" />
+            <element signature="e#9705#9998#0" expanded="true" />
+            <element signature="e#9806#9998#0" expanded="true" />
+            <element signature="e#9806#9998#0" expanded="true" />
+            <element signature="e#10832#10949#0" expanded="true" />
+            <element signature="e#10832#10949#0" expanded="true" />
+            <element signature="e#11777#11894#0" expanded="true" />
+            <element signature="e#11777#11894#0" expanded="true" />
+            <element signature="e#12690#12723#1" expanded="true" />
+            <element signature="e#12728#13022#0" expanded="true" />
+            <element signature="e#12728#13022#0" expanded="true" />
+            <element signature="e#12830#13022#0" expanded="true" />
+            <element signature="e#12830#13022#0" expanded="true" />
+            <element signature="e#13844#13960#0" expanded="true" />
+            <element signature="e#13844#13960#0" expanded="true" />
+            <element signature="e#14771#14887#0" expanded="true" />
+            <element signature="e#14771#14887#0" expanded="true" />
+            <element signature="e#15704#15737#1" expanded="true" />
+            <element signature="e#15742#16036#0" expanded="true" />
+            <element signature="e#15742#16036#0" expanded="true" />
+            <element signature="e#15844#16036#0" expanded="true" />
+            <element signature="e#15844#16036#0" expanded="true" />
+            <element signature="e#16878#16994#0" expanded="true" />
+            <element signature="e#16878#16994#0" expanded="true" />
+            <element signature="e#17830#17946#0" expanded="true" />
+            <element signature="e#17830#17946#0" expanded="true" />
+            <element signature="e#18764#18765#0" expanded="true" />
+            <element signature="e#18816#18817#0" expanded="true" />
+            <element signature="e#24142#24143#0" expanded="true" />
+            <element signature="e#24198#24199#0" expanded="true" />
+            <element signature="e#29201#29238#1" expanded="true" />
+            <element signature="e#29243#29283#1" expanded="true" />
+            <element signature="e#29288#29329#1" expanded="true" />
+            <element signature="e#29334#29384#1" expanded="true" />
+            <element signature="e#29390#30154#0" expanded="true" />
+            <element signature="e#29390#30154#0" expanded="true" />
+            <element signature="e#29650#30154#0" expanded="true" />
+            <element signature="e#29650#30154#0" expanded="true" />
+            <element signature="e#29779#30154#0" expanded="true" />
+            <element signature="e#29779#30154#0" expanded="true" />
+            <element signature="e#30248#30528#0" expanded="true" />
+            <element signature="e#30248#30528#0" expanded="true" />
+            <element signature="e#30273#30314#1" expanded="true" />
+            <element signature="e#30321#30362#1" expanded="true" />
+            <element signature="e#30370#30466#0" expanded="true" />
+            <element signature="e#30370#30466#0" expanded="true" />
+            <element signature="e#30533#30774#0" expanded="true" />
+            <element signature="e#30533#30774#0" expanded="true" />
+            <element signature="e#30571#30605#1" expanded="true" />
+            <element signature="e#30612#30646#1" expanded="true" />
+            <element signature="e#30653#30671#1" expanded="true" />
+            <element signature="e#30678#30721#0" expanded="true" />
+            <element signature="e#30678#30721#0" expanded="true" />
+            <element signature="e#30911#32005#0" expanded="true" />
+            <element signature="e#30911#32005#0" expanded="true" />
+            <element signature="e#30983#31021#1" expanded="true" />
+            <element signature="e#31028#31067#1" expanded="true" />
+            <element signature="e#31075#31722#0" expanded="true" />
+            <element signature="e#31075#31722#0" expanded="true" />
+            <element signature="e#31461#31722#0" expanded="true" />
+            <element signature="e#31461#31722#0" expanded="true" />
+            <element signature="e#31594#31722#0" expanded="true" />
+            <element signature="e#31594#31722#0" expanded="true" />
+            <element signature="e#31594#31722#0" expanded="true" />
+            <element signature="e#31594#31722#0" expanded="true" />
+            <element signature="e#31594#31722#0" expanded="true" />
+            <element signature="e#31594#31722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/flink/core/memory/HybridMemorySegment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="130" column="7" selection-start-line="130" selection-start-column="7" selection-end-line="130" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#915#1075#0" expanded="true" />
+            <element signature="e#915#1075#0" expanded="true" />
+            <element signature="e#1146#1654#0" expanded="true" />
+            <element signature="e#1146#1654#0" expanded="true" />
+            <element signature="e#1183#1570#0" expanded="true" />
+            <element signature="e#1183#1570#0" expanded="true" />
+            <element signature="e#1223#1269#1" expanded="true" />
+            <element signature="e#1467#1562#0" expanded="true" />
+            <element signature="e#1467#1562#0" expanded="true" />
+            <element signature="e#1625#1643#1" expanded="true" />
+            <element signature="e#1739#2035#0" expanded="true" />
+            <element signature="e#1739#2035#0" expanded="true" />
+            <element signature="e#1552#1553#0" expanded="true" />
+            <element signature="e#1574#1575#0" expanded="true" />
+            <element signature="e#2810#2914#0" expanded="true" />
+            <element signature="e#2810#2914#0" expanded="true" />
+            <element signature="e#2810#2914#0" expanded="true" />
+            <element signature="e#2810#2914#0" expanded="true" />
+            <element signature="e#2919#2956#1" expanded="true" />
+            <element signature="e#2961#2996#1" expanded="true" />
+            <element signature="e#3001#3077#0" expanded="true" />
+            <element signature="e#3001#3077#0" expanded="true" />
+            <element signature="e#3001#3077#0" expanded="true" />
+            <element signature="e#3001#3077#0" expanded="true" />
+            <element signature="e#3082#3198#0" expanded="true" />
+            <element signature="e#3047#3064#0" expanded="true" />
+            <element signature="e#3082#3198#0" expanded="true" />
+            <element signature="e#3113#3192#0" expanded="true" />
+            <element signature="e#3078#3097#0" expanded="true" />
+            <element signature="e#3113#3192#0" expanded="true" />
+            <element signature="e#3205#3238#1" expanded="true" />
+            <element signature="e#3265#3293#1" expanded="true" />
+            <element signature="e#3307#3491#0" expanded="true" />
+            <element signature="e#3307#3491#0" expanded="true" />
+            <element signature="e#3727#3760#0" expanded="true" />
+            <element signature="e#3727#3760#0" expanded="true" />
+            <element signature="e#3767#3877#0" expanded="true" />
+            <element signature="e#3767#3877#0" expanded="true" />
+            <element signature="e#3943#4026#0" expanded="true" />
+            <element signature="e#3943#4026#0" expanded="true" />
+            <element signature="e#3943#4026#0" expanded="true" />
+            <element signature="e#3943#4026#0" expanded="true" />
+            <element signature="e#3943#4026#0" expanded="true" />
+            <element signature="e#3943#4026#0" expanded="true" />
+            <element signature="e#1011#1043#0" expanded="true" />
+            <element signature="e#4090#4213#0" expanded="true" />
+            <element signature="e#4090#4213#0" expanded="true" />
+            <element signature="e#4291#4374#0" expanded="true" />
+            <element signature="e#4291#4374#0" expanded="true" />
+            <element signature="e#4291#4374#0" expanded="true" />
+            <element signature="e#4291#4374#0" expanded="true" />
+            <element signature="e#4291#4374#0" expanded="true" />
+            <element signature="e#4291#4374#0" expanded="true" />
+            <element signature="e#4379#4499#0" expanded="true" />
+            <element signature="e#666#683#0" expanded="true" />
+            <element signature="e#4379#4499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Bundled Protobuf Distribution</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>flink-copy</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
